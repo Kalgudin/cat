@@ -122,10 +122,10 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-###########################
+############################################################################
 
-# cd PycharmProjects\Cat
+# cd PycharmProjects\cat
 # venv\scripts\activate
-# cd proj
-# python manage.py runserver
+# python cat\src\manage.py runserver
+
 # docker-compose up --build

@@ -5,10 +5,10 @@ services:
     image: redis
     restart: always
 
-  webapp:
+  cat:
     restart: always
     build:
-      context:  ./Cat
+      context:  ./cat
     ports:
       - "8000:8000"
-    command: [ "python3", "./proj/manage.py", "runserver", "0.0.0.0:8000"]
+    command: [ "python3", "./src/manage.py", "runserver", "0.0.0.0:8000"]
